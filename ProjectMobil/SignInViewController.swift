@@ -61,12 +61,13 @@ class SignInViewController: UIViewController {
         let user = userNameOutlet.text
         let pass = passwordOutlet.text
         let parameters: Parameters = [
-            "username": user,
-            "password": pass
+            "username": user!,
+            "password": pass!
         ]
         Alamofire.request("http://192.168.1.222/mobil_app/user_login_api.php", method: .post, parameters: parameters).responseJSON { response in
             print(response)
         }
+        
     }
 
     @IBAction func signUpAction(_ sender: Any) {
