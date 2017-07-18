@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A45A6881F1CA62A00B4C65B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45A6871F1CA62A00B4C65B /* AppDelegate.swift */; };
-		8A45A68A1F1CA62A00B4C65B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45A6891F1CA62A00B4C65B /* ViewController.swift */; };
+		8A45A68A1F1CA62A00B4C65B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45A6891F1CA62A00B4C65B /* SignInViewController.swift */; };
 		8A45A68D1F1CA62A00B4C65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A45A68B1F1CA62A00B4C65B /* Main.storyboard */; };
 		8A45A6901F1CA62A00B4C65B /* ProjectMobil.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A45A68E1F1CA62A00B4C65B /* ProjectMobil.xcdatamodeld */; };
 		8A45A6921F1CA62A00B4C65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A45A6911F1CA62A00B4C65B /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		8A45A6841F1CA62A00B4C65B /* ProjectMobil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectMobil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A45A6871F1CA62A00B4C65B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A45A6891F1CA62A00B4C65B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A45A6891F1CA62A00B4C65B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		8A45A68C1F1CA62A00B4C65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A45A68F1F1CA62A00B4C65B /* ProjectMobil.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectMobil.xcdatamodel; sourceTree = "<group>"; };
 		8A45A6911F1CA62A00B4C65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				8A45A6871F1CA62A00B4C65B /* AppDelegate.swift */,
-				8A45A6891F1CA62A00B4C65B /* ViewController.swift */,
+				8A45A6891F1CA62A00B4C65B /* SignInViewController.swift */,
 				8A45A68B1F1CA62A00B4C65B /* Main.storyboard */,
 				8A45A6911F1CA62A00B4C65B /* Assets.xcassets */,
 				8A45A6931F1CA62A00B4C65B /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A45A6901F1CA62A00B4C65B /* ProjectMobil.xcdatamodeld in Sources */,
-				8A45A68A1F1CA62A00B4C65B /* ViewController.swift in Sources */,
+				8A45A68A1F1CA62A00B4C65B /* SignInViewController.swift in Sources */,
 				8A45A6881F1CA62A00B4C65B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
