@@ -5,9 +5,9 @@
 //  Created by MobioApp2 on 7/17/17.
 //  Copyright © 2017 MobioApp2. All rights reserved.
 //
-
 import UIKit
 import CoreData
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -40,6 +40,9 @@
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUpAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="noH-6y-HWE"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="lQ9-4M-1Xs">
                                 <rect key="frame" x="131" y="73" width="112.5" height="87"/>
@@ -52,6 +55,9 @@
                                 <state key="normal" title="Sign In">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signInAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3aQ-2s-p2l"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNc-2e-o13">
                                 <rect key="frame" x="205.5" y="598.5" width="150" height="67"/>
@@ -176,7 +182,7 @@
                         <outlet property="forgetPassWindow" destination="wPN-Uj-kDg" id="7AF-N4-Wx2"/>
                         <outlet property="passwordOutlet" destination="ku5-pg-Scl" id="OQP-Nw-0mG"/>
                         <outlet property="signUpOutlet" destination="385-7h-RJP" id="uMK-Cd-6oR"/>
-                        <outlet property="userNameOutlet" destination="qnC-pR-m50" id="n6S-tj-Sqv"/>
+                        <outlet property="userNameOutlet" destination="Yco-yT-FhG" id="Bfh-ZS-DbW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
